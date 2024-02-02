@@ -9,8 +9,16 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-      
+      <div id="root">
+
+      </div>
         
+      <script>
+       const heading= document.createElement("h1");
+       heading.innerHTML="Hello World From Javascript";
+       const root = document.getElementById("root");
+         root.append(heading);
+      </script>  
        
     </body>
 </html>
